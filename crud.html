@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: aquamarine;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+            margin-top: 2%;
+            padding-top: 3%;
+            
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="usn">USN: </label>
+        <input type="text" name="usn">
+        <label for="name">Name: </label>
+        <input type="text" name="name" ><br><br>
+        <label for="fname">Father's Name: </label>
+        <input type="text" name="fname">
+        <label for="mname">Mother's Name: </label>
+        <input type="text" name="mname"><br><br>
+        <label for="mnum">Mobile number: </label>
+        <input type="text" name="mnum">
+        <label for="address">Address: </label>
+        <input type="text" name="address"><br><br>
+
+
+        <input type="submit" value="CREATE" name="create">
+        <input type="submit" value="UPDATE" name="update">
+        <input type="submit" value="DELETE" name="delete">
+        <input type="reset" value="RESET" name="reset">
+    </form>
+</body>
+</html>
